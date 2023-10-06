@@ -1,9 +1,5 @@
 
 
-How to run:
-1) Unzip Project1
-2) Project1 -> src -> reversi -> CSC242_project1.java
-
 Testing (program expects exact integer/character to compile correctly):
 1) Choosing board: 1 for 4x4; 2 for 8x8
 2) Choose opponent by corresponding integers
@@ -12,8 +8,6 @@ Testing (program expects exact integer/character to compile correctly):
 5) Enter column: a lower-cased character from a to d for 4x4; a to h for 8x8
 
 Details about the classes:
-- CSC242_Project1.java
-	- acts as the main for general game information and logistics 
 - Game.java
 	- where majority of adversarial search details locate (detailed methods for running the game)
 - Random.java
@@ -26,7 +20,6 @@ Details about the classes:
 	- heuristic minimax
 
 Sample Output: 
-CSC 242 - Project 1: Reversi by Ginger Li & Judy Zhu
 Choose your game:
 1. 4x4 Reversi
 2. 8x8 Reversi 
